@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: path.resolve(__dirname, `src`, `app`), // the entry point of your app
+  entry: path.resolve(__dirname, 'src', 'app'), // the entry point of your app
   output: { // definition of the one file the app will become
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -24,4 +24,4 @@ module.exports = {
       }
     ]
   }
-}
+};
