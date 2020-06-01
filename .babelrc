@@ -1,0 +1,13 @@
+{ // Webpack will call this file and use the below libraries to transpose jsx to js
+  "presets": [
+    [
+      "@babel/preset-env", // determines what kind of ES6 is transpiled
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
